@@ -89,3 +89,4 @@ function assessment(userName){
         '診断結果の文言の特定の部分を名前に置き換える処理が正しくありません。'
       );
 }
+　
