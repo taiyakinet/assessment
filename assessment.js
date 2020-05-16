@@ -50,7 +50,7 @@ userNameInput.onkeydown = (event) => {
     }
   };
 const answers = [
-    '{userName}へのおススメダムは　　です。{userName}の特徴的な声は皆を惹きつけ、心に残ります。',
+    '志の高い{userName}へのおススメダムは高瀬ダムです。http://damnet.or.jp/cgi-bin/binranA/All.cgi?db4=1027',
     '{userName}へのおススメダムは　　です。{userName}に見つめられた人は、気になって仕方がないでしょう。',
     '{userName}へのおススメダムは　　です。{userName}の情熱に周りの人は感化されま。',
     '{userName}へのおススメダムは　　です。{userName}の厳しさがものごとをいつも成功に導きま。',
