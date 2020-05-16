@@ -33,12 +33,12 @@ assessmentButton.onclick = ()=>{
 
     const anchor = document.createElement('a');
     const hrefValue = 'https://twitter.com/intent/tweet?button_hashtag='
-    + encodeURIComponent('あなたのいいところ')
+    + encodeURIComponent('あなたへのおススメダム')
     + '&ref_src=twsrc%5Etfw';
     anchor.setAttribute('href',hrefValue);
     anchor.className = 'twitter-hashtag-button';
     anchor.setAttribute('data-text',result);
-    anchor.innerText = 'Tweet #あなたのいいところ';
+    anchor.innerText = 'Tweet #あなたへのおススメダム診断';
     tweetDivided.appendChild(anchor);
     
     twttr.widgets.load();
@@ -50,23 +50,16 @@ userNameInput.onkeydown = (event) => {
     }
   };
 const answers = [
-    '{userName}のいいところは声です。{userName}の特徴的な声は皆を惹きつけ、心に残ります。',
-    '{userName}のいいところはまなざしです。{userName}に見つめられた人は、気になって仕方がないでしょう。',
-    '{userName}のいいところは情熱です。{userName}の情熱に周りの人は感化されま。',
-    '{userName}のいいところは厳しさです。{userName}の厳しさがものごとをいつも成功に導きま。',
-    '{userName}のいいところは知識です。博識な{userName}を多くの人が頼りにしいます。',
-    '{userName}のいいところはユニークさです。{userName}だけのその特徴が皆を楽しくさせま。',
-    '{userName}のいいところは用心深さです。{userName}の洞察に、多くの人が助けらます。',
-    '{userName}のいいところは見た目です。内側から溢れ出る{userName}の良さに皆が気を惹れます。',
-    '{userName}のいいところは決断力です。{userName}がする決断にいつも助けられる人います。',
-    '{userName}のいいところは思いやりです。{userName}に気をかけてもらった多くの人が感謝しいます。',
-    '{userName}のいいところは感受性です。{userName}が感じたことに皆が共感し、わかりあことができます。',
-    '{userName}のいいところは節度です。強引すぎない{userName}の考えに皆が感謝していま。',
-    '{userName}のいいところは好奇心です。新しいことに向かっていく{userName}の心構えが多くの人に魅的に映ります。',
-    '{userName}のいいところは気配りです。{userName}の配慮が多くの人を救っていま。',
-    '{userName}のいいところはその全てです。ありのままの{userName}自身がいいところなので。',
-    '{userName}のいいところは自制心です。やばいと思ったときにしっかりと衝動をえられる{userName}が皆から評価されています。',
-    '{userName}のいいところは優しさです。あなたの優しい雰囲気や立ち振る舞いに多くの人が癒やされています。'
+    '{userName}へのおススメダムは　　です。{userName}の特徴的な声は皆を惹きつけ、心に残ります。',
+    '{userName}へのおススメダムは　　です。{userName}に見つめられた人は、気になって仕方がないでしょう。',
+    '{userName}へのおススメダムは　　です。{userName}の情熱に周りの人は感化されま。',
+    '{userName}へのおススメダムは　　です。{userName}の厳しさがものごとをいつも成功に導きま。',
+    '{userName}へのおススメダムは　　です。博識な{userName}を多くの人が頼りにしいます。',
+    '{userName}へのおススメダムは　　です。{userName}だけのその特徴が皆を楽しくさせま。',
+    '{userName}へのおススメダムは　　です。{userName}の洞察に、多くの人が助けらます。',
+    '{userName}へのおススメダムは　　です。内側から溢れ出る{userName}の良さに皆が気を惹れます。',
+    '{userName}へのおススメダムは　　です。{userName}がする決断にいつも助けられる人います。',
+    '{userName}へのおススメダムは　　です。{userName}に気をかけてもらった多くの人が感謝しいます。'
 ];
 /**
  * 名前の文字列を渡すと診断結果を返す関数
