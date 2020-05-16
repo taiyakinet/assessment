@@ -51,15 +51,14 @@ userNameInput.onkeydown = (event) => {
   };
 const answers = [
     '志の高い{userName}へのおススメダムは高瀬ダムです。http://damnet.or.jp/cgi-bin/binranA/All.cgi?db4=1027',
-    '{userName}へのおススメダムは　　です。{userName}に見つめられた人は、気になって仕方がないでしょう。',
-    '{userName}へのおススメダムは　　です。{userName}の情熱に周りの人は感化されま。',
-    '{userName}へのおススメダムは　　です。{userName}の厳しさがものごとをいつも成功に導きま。',
-    '{userName}へのおススメダムは　　です。博識な{userName}を多くの人が頼りにしいます。',
-    '{userName}へのおススメダムは　　です。{userName}だけのその特徴が皆を楽しくさせま。',
-    '{userName}へのおススメダムは　　です。{userName}の洞察に、多くの人が助けらます。',
-    '{userName}へのおススメダムは　　です。内側から溢れ出る{userName}の良さに皆が気を惹れます。',
-    '{userName}へのおススメダムは　　です。{userName}がする決断にいつも助けられる人います。',
-    '{userName}へのおススメダムは　　です。{userName}に気をかけてもらった多くの人が感謝しいます。'
+    'その汚れない真っ白な心の持ち主の{userName}へのおススメダムは南相木ダムです。http://damnet.or.jp/cgi-bin/binranA/All.cgi?db4=3280',
+    '優しくて心が広い{userName}へのおススメダムは徳山ダムです。http://damnet.or.jp/cgi-bin/binranA/All.cgi?db4=1130',
+    '数々の苦難も乗り越えられる{userName}へのおススメダムは黒部ダムです。http://damnet.or.jp/cgi-bin/binranA/All.cgi?db4=0848',
+    '楽しいことが大好きで、いつも周りを盛り上げている{userName}へのおススメダムは宮ケ瀬ダムです。http://damnet.or.jp/cgi-bin/binranA/All.cgi?db4=0703',
+    '自身のアップデートも怠らず、アウトプットにも積極的な{userName}へのおススメダムは丸山ダムです。http://damnet.or.jp/cgi-bin/binranA/All.cgi?db4=1136',
+    '見た目の割にフットワークの軽い{userName}へのおススメダムは畑薙第一ダムです。http://damnet.or.jp/cgi-bin/binranA/All.cgi?db4=1168',
+    '独創的でユニークな存在の{userName}へのおススメダムは 豊稔池ダムです。http://damnet.or.jp/cgi-bin/binranA/All.cgi?db4=3048',
+    '人気者で交友関係が広い{userName}へのおススメダムは雨竜第一ダムです。http://damnet.or.jp/cgi-bin/binranA/All.cgi?db4=0040'
 ];
 /**
  * 名前の文字列を渡すと診断結果を返す関数
