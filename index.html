@@ -9,12 +9,15 @@
     navigator.geolocation.getCurrentPosition(function(position){
         //位置情報を取得し処理
         alert("緯度:" + position.coords.latitude +
-        "軽度:" + position.coords.longitude);
-    });
-    
+        "経度:" + position.coords.longitude);
+        var lat=position.coords.latitude;
+        var lon=position.coords.longitude;
+  
+    document.write('https://www.google.co.jp/maps/@' + lat +','+ lon + ',15z');
+      });
     </script>
+
 </head>
 <body>
-    
 </body>
 </html>
